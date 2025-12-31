@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 这是背景特效的容器 -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header class="profile">
+            <img src="me.jpg" alt="个人头像" class="profile-avatar">
+            <h1>你好, 我是 [你的名字] !</h1>
+            <p>这里是我收集和创作的一些小项目，<br>用于捕捉世界的美好和我们生活的点滴 :)</p>
+        </header>
+
+        <main class="portfolio-grid">
+            <!-- 项目卡片 1 -->
+            <div class="card">
+                <div class="card-tags">
+                    <span class="tag">心情</span>
+                    <span class="tag">摄影</span>
+                </div>
+                <img src="city.png" alt="项目1的图片" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">一个阳光明媚的下午</h3>
+                    <p class="card-description">记录了在公园散步时拍摄的一些风景照片，心情非常愉快。</p>
+                </div>
+            </div>
+
+            <!-- 项目卡片 2 -->
+            <div class="card">
+                <div class="card-tags">
+                    <span class="tag">文字</span>
+                </div>
+                <img src="eat.jpg" alt="项目2的图片" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">关于夏天的随笔</h3>
+                    <p class="card-description">一篇心血来潮写下的短文，关于冰西瓜、晚风和蝉鸣。</p>
+                </div>
+            </div>
+
+            <!-- 项目卡片 3 -->
+            <div class="card">
+                <div class="card-tags">
+                    <span class="tag">代码</span>
+                    <span class="tag">项目</span>
+                </div>
+                <img src="tea.jpg" alt="项目3的图片" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">我的第一个网页</h3>
+                    <p class="card-description">学习前端开发时，亲手打造的第一个个人作品集网站。</p>
+                </div>
+            </div>
+
+            <!-- 复制粘贴上面的 "card" 代码块来添加更多项目 -->
+
+        </main>
+    </div>
+
+    <!-- 引入外部JS库用于实现背景特效 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
